@@ -1,6 +1,11 @@
+#include<stdio.h>
 
-#include <stdio.h>
 int main(){
-    // Resolver ejercicio 10
-    return 0;
+	
+	int gigante[10000000];
+	
+	for(int i=0; i<10000000; i++){
+		printf("&gigante[%d] = %p\n", i, &gigante[i]);
+	}
+	return 0;
 }
